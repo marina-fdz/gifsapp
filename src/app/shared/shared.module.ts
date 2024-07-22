@@ -11,8 +11,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
   imports: [
     CommonModule
   ],
-exports: [
-  SidebarComponent
-]
+  exports: [
+    SidebarComponent
+  ]
 })
 export class SharedModule { }
