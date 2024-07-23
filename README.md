@@ -22,7 +22,7 @@ Welcome to GifsApp, an Angular-based application designed to search and display 
 &nbsp; 1. Clone the repository:
 
 ```bash
-  git clone https://github.com/ marina-fdz/gifsapp.git
+  git clone https://github.com/marina-fdz/gifsapp.git
   cd gifsapp
 ```
 
