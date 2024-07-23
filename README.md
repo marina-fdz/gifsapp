@@ -1,27 +1,63 @@
-# Gifsapp
+# GifsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 
-## Development server
+Welcome to GifsApp, an Angular-based application designed to search and display GIFs from [Giphy.com](https://developers.giphy.com/). This app was developed as part of the Angular course available at [DevTalles](https://cursos.devtalles.com/courses/take/angular).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Search GIFs:** Enter a keyword to search for GIFs.
+- **Display Results:** Shows the first 10 GIF results from Giphy.
+- **Search History:** Saves search terms in the local storage.
+- **Sidebar Menu:** Displays saved searches in a sidebar, allowing you to click and re-search.
+- **Lazy Image Loading:** Utilizes a custom `lazy-image` component to load images lazily for improved performance.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installation
 
-## Running end-to-end tests
+&nbsp; 1. Clone the repository:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+  git clone https://github.com/ marina-fdz/gifsapp.git
+  cd gifsapp
+```
 
-## Further help
+&nbsp; 2. Install dependencies:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+  npm install
+```
+
+### Running the Application
+
+To start the application, run:
+
+```bash
+  ng serve
+```
+o
+
+```bash
+  npm start
+```
+
+Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+
+## Usage
+
+&nbsp; 1. **Search GIFs:** Use the search bar to enter a keyword and press enter.
+
+&nbsp; 2. **View Results:** The app will display the first 10 GIFs found.
+
+&nbsp; 3. **Save Searches:** Each search term is saved in the local storage and displayed in the sidebar.
+
+&nbsp; 4. **Re-search:** Click on any saved search term in the sidebar to perform the search again.
+## Contact
+
+For any inquiries or questions, feel free to reach out to the repository owner at [@marina-fdz](https://www.github.com/marina-fdz)
+
